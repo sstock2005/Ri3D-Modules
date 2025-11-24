@@ -2,6 +2,8 @@ package frc.robot;
 
 public class Constants 
 {
+    public static final int kDriverControllerPort = 0;
+
     public static final class DrivetrainConstants
     {
         public static final int LEFT_MOTOR_PORT = 2;

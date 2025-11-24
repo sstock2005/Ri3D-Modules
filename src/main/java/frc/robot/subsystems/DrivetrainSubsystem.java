@@ -75,6 +75,6 @@ public class DrivetrainSubsystem extends SubsystemBase
 
     public void driveArcade(double left, double right)
     {
-        m_robotDrive.arcadeDrive(-left*driveSpeedLimit, -right*driveSpeedLimit);
+        m_robotDrive.arcadeDrive(left*driveSpeedLimit, right*driveSpeedLimit);
     }
 }
