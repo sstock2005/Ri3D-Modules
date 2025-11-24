@@ -44,10 +44,10 @@ public class DrivetrainSubsystem extends SubsystemBase
 
     public DrivetrainSubsystem()
     {
-        m_leftMotorLeader = new SparkMax(Constants.DrivetrainConstants.leftmotor_port, MotorType.kBrushless);
-        m_rightMotorLeader = new SparkMax(Constants.DrivetrainConstants.rightmotor_port, MotorType.kBrushless);
-        m_rightMotorFollower = new SparkMax(Constants.DrivetrainConstants.rightmotor_follower_port, MotorType.kBrushless);
-        m_leftMotorFollower = new SparkMax(Constants.DrivetrainConstants.leftmotor_follower_port, MotorType.kBrushless);
+        m_leftMotorLeader = new SparkMax(Constants.DrivetrainConstants.LEFT_MOTOR_PORT, MotorType.kBrushless);
+        m_rightMotorLeader = new SparkMax(Constants.DrivetrainConstants.RIGHT_MOTOR_PORT, MotorType.kBrushless);
+        m_rightMotorFollower = new SparkMax(Constants.DrivetrainConstants.RIGHT_FOLLOWER_PORT, MotorType.kBrushless);
+        m_leftMotorFollower = new SparkMax(Constants.DrivetrainConstants.LEFT_FOLLOWER_PORT, MotorType.kBrushless);
         
         SparkMaxConfig rightLeaderConfig = new SparkMaxConfig();
         rightLeaderConfig.inverted(true);
